@@ -1,0 +1,73 @@
+{
+	"packages": [
+	{
+		"name": "nrf9160dk",
+		"maintainer": "Dejan Deletic",
+		"websiteURL": "https://github.com/Monash-BoSL",
+		"email": "packages@arduino.cc",
+
+		"platforms": [
+			{
+				"name": "BoSL Boards",
+				"architecture": "zephyr",
+				"version": "1.0.0",
+				"category": "Contributed",
+				"help": {
+					"online": "https://github.com/ddeletic/arduino_bosl_nrf9160dk_downloads"
+				},
+				"size": "5657692",
+				"archiveFileName": "bosl_nrf9160dk_v1.0.0.zip",
+				"checksum": "MD5:450a67f726653e4328844bd35da025b4",
+				"url": "https://github.com/ddeletic/arduino_bosl_nrf9160dk_downloads/raw/main/bosl_nrf9160dk_v1.0.0.zip",
+				"boards": [
+					{"name": "nrf9160dk"},
+				],
+				"toolsDependencies": [
+					{ "packager": "arduino", "name": "arm-zephyr-eabi",	"version": "12.2.0" },
+					{ "packager": "arduino", "name": "gen-isr-tables",	"version": "0.0.0" },
+					{ "packager": "arduino", "name": "nrfjprog",		"version": "10.22.1" }
+				],
+			}
+		],
+
+		"tools": [
+			{
+				"name": "arm-zephyr-eabi",
+				"version": "12.2.0",
+				"systems": [
+				{
+					"size": "220867873",
+					"checksum": "MD5:8f880e3db0b69db743737cec6dd4e316",
+					"host": "i686-mingw32",
+					"archiveFileName": "arm-zephyr-eabi_v12.2.0.zip",
+					"url": "https://github.com/ddeletic/arduino_bosl_nrf9160dk_downloads/raw/main/gen_isr_tables_v0.0.0.zip"
+				}
+			},
+			{
+				"name": "gen-isr-tables",
+				"version": "0.0.0",
+				"systems": [
+				{
+					"size": "8284977",
+					"checksum": "MD5:7b538039cc0d5b6b837ed00678db63c1",
+					"host": "i686-mingw32",
+					"archiveFileName": "gen-isr-tables.zip",
+					"url": "https://github.com/ddeletic/arduino_bosl_nrf9160dk_downloads/raw/main/gen_isr_tables_v0.0.0.zip"
+				}
+			},
+			{
+				"name": "nrfjprog",
+				"version": "10.22.1",
+				"systems": [
+				{
+					"size": "10385671",
+					"checksum": "MD5:b935518ab603f32f416dce55ad32f098",
+					"host": "i686-mingw32",
+					"archiveFileName": "nrfjprog_v10.22.1.zip",
+					"url": "https://github.com/ddeletic/arduino_bosl_nrf9160dk_downloads/raw/main/nrfjprog_v10.22.1.zip"
+				}
+			}
+		]
+	}
+	]
+}
