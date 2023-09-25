@@ -36,11 +36,11 @@
 				"version": "12.2.0",
 				"systems": [
 				{
-					"size": "220867873",
-					"checksum": "MD5:8f880e3db0b69db743737cec6dd4e316",
+					"size": "101900684",
+					"checksum": "MD5:636f1312f9da3ac663ef2398e4a5dcb4",
 					"host": "i686-mingw32",
 					"archiveFileName": "arm-zephyr-eabi_v12.2.0.zip",
-					"url": "https://github.com/ddeletic/arduino_bosl_nrf9160dk_downloads/raw/main/gen_isr_tables_v0.0.0.zip"
+					"url": "https://drive.google.com/file/d/1LZIyqW0OcinvWsikUtaMLgtec3Vt_-Eb/view?usp=drive_link"
 				}
 			},
 			{
