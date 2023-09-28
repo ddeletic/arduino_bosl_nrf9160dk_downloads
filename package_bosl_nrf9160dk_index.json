@@ -36,7 +36,7 @@
 				"version": "12.2.0",
 				"systems": [{
 					"host": "i686-mingw32",
-					"url": "https://drive.google.com/file/d/1LZIyqW0OcinvWsikUtaMLgtec3Vt_-Eb/view?usp=drive_link",
+					"url": "https://www.deletic.org/BoSL/bosl_arm-zephyr-eabi_v12.2.0.tar.gz",
 					"archiveFileName": "bosl_arm-zephyr-eabi_v12.2.0.tar.gz",
 					"size": "100105296",
 					"checksum": "MD5:1c4eb8187ecba354f504ee0084091beb"
